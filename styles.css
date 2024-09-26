@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+
+    background-image: url(/images/florence.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 600px;
+    display: inline-block;
+}
+
+/*Nav Bar Styles */
+.nav {
+
+    background-image: url(/images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    padding-left: 60px;
+    margin-left: 10px;
+
+}
+
+#navLinks li{
+
+    list-style-type: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 20px;
+
+
+
+
+}
+
+#navLinks li a:hover{
+
+    color: #8662c7;
+}
+
+#navLinks a{
+
+    text-decoration: none;
+    color: #51279B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/*Header Content Styles*/
+
+.headerContent {
+
+    margin-top: 125px;
+    margin-left: 125px;
+    margin-bottom: 0px;
+}
+
+.headerContent h1 {    
+
+    color: white;
+    font-size: 56px;
+
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headerContent h2 {
+
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#headButton {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #51279B;
+    height: 60px;
+    width: 170px;
+    border-radius: 3px;
+
+
+}
+
+#headButton:hover {
+
+    background-color: #8662c7;
+}
+
+/* Card Styles */
+
+.cards {
+
+ margin-top: 20px;
+
+ text-align: center;
+}
+
+.novaScotia {
+
+    display: inline-block;
+
+}
+
+.novaScotia p {
+
+    text-align: left;
+}
+
+.novaScotia #likes{
+    background-image: url(/images/heart.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.novaScotia #comments {
+
+    padding-left: 20px;
+    background-image: url(/images/comment.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+
+}
+.santorini {
+
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.santorini p {
+
+    text-align: left;
+}
+
+.santorini #likes{
+    background-image: url(/images/heart.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.santorini #comments {
+
+    padding-left: 20px;
+    background-image: url(/images/comment.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+
+}
+
+.amsterdam {
+
+    display: inline-block;
+}
+
+.amsterdam p {
+
+    text-align: left;
+}
+
+.amsterdam #likes{
+    background-image: url(/images/heart.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.amsterdam #comments {
+
+    padding-left: 20px;
+    background-image: url(/images/comment.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+
+}
+
+/* Footer Styles*/ 
+
+footer {
+    margin-top: 50px;
+    background-color: #51279B;
+    min-height: 280px;
+}
+
+#footerLinks ul {
+
+    text-align: center;
+}
+
+#footerLinks li {
+
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#footerLinks li a {
+
+    color: white;
+    text-decoration: none;
+    justify-items: center;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
