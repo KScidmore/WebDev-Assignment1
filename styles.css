@@ -2,9 +2,11 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
+header.home {
 
     background-image: url(/images/florence.jpg);
+    background-repeat: none;
+    background-size: cover;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -12,12 +14,14 @@ header {
     display: inline-block;
 }
 
+
+
 /*Nav Bar Styles */
 .nav {
 
     background-image: url(/images/logo.png);
     background-repeat: no-repeat;
-    background-size: 70px;
+    background-size: 65px;
     padding-left: 60px;
     margin-left: 10px;
 
@@ -29,10 +33,6 @@ header {
     display: inline-block;
     font-size: 19px;
     margin: 20px;
-
-
-
-
 }
 
 #navLinks li a:hover{
@@ -83,7 +83,7 @@ header {
     height: 60px;
     width: 170px;
     border-radius: 3px;
-
+    border: none;
 
 }
 
@@ -101,18 +101,18 @@ header {
  text-align: center;
 }
 
-.novaScotia {
+.paris {
 
     display: inline-block;
 
 }
 
-.novaScotia p {
+.paris p {
 
     text-align: left;
 }
 
-.novaScotia #likes{
+#likes{
     background-image: url(/images/heart.png);
     background-repeat: no-repeat;
     background-size: 16px;
@@ -120,7 +120,7 @@ header {
     padding-right: 20px;
 }
 
-.novaScotia #comments {
+#comments {
 
     padding-left: 20px;
     background-image: url(/images/comment.png);
@@ -140,22 +140,6 @@ header {
     text-align: left;
 }
 
-.santorini #likes{
-    background-image: url(/images/heart.png);
-    background-repeat: no-repeat;
-    background-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.santorini #comments {
-
-    padding-left: 20px;
-    background-image: url(/images/comment.png);
-    background-repeat: no-repeat;
-    background-size: 16px;
-
-}
 
 .amsterdam {
 
@@ -167,29 +151,23 @@ header {
     text-align: left;
 }
 
-.amsterdam #likes{
-    background-image: url(/images/heart.png);
-    background-repeat: no-repeat;
-    background-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
+
+a#more {
+    padding-left: 30px;
+    text-decoration: none;
+    color: #51279B;
 }
 
-.amsterdam #comments {
+a#more:hover {
 
-    padding-left: 20px;
-    background-image: url(/images/comment.png);
-    background-repeat: no-repeat;
-    background-size: 16px;
-
+    color: #8662c7;
 }
-
 /* Footer Styles*/ 
 
 footer {
     margin-top: 50px;
     background-color: #51279B;
-    min-height: 280px;
+    min-height: 200px;
 }
 
 #footerLinks ul {
@@ -215,4 +193,42 @@ footer {
 footer p {
     color: white;
     text-align: center;
+}
+
+/*Travel Page Styles*/
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainImage {
+
+    margin: 0 auto;
+
+}
+.text p {
+
+    align-self: flex-start;
+    justify-self: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.relImages{
+
+    margin: auto;
+
+}
+
+.relImages img:hover {
+
+    transform: scale(1.5);
+}
+
+.relImages img {
+    padding: 13px;
 }

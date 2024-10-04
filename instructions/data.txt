@@ -1,6 +1,6 @@
 id; title; excerpt; description; latitude; longitude; city; country; number-likes; number-comments
 
-1;Explore Nova Scotia;On board a small sailing ship leaving Lunenburg;On board a small sailing ship leaving Lunenburg;44.373257;-64.307249;Lunenburg;Canada;112;23
+1;Louvre Entrance;A monumental entrance in the shape of a pyramid!;This bold pyramid entrance was designed by  the Chinese-American architect Ieoh Ming Pei, which transformed the central courtyard of the Louvre palace.;48.860971;2.336503;Paris;France;112;23
 
 2;Dusk on Santorini; Devote yourself to the sunset; Looking towards Imerovigli, a village devoted to the appreciation of the sunset!;36.429988;25.426145; Fira; Greece; 2313; 18
 
