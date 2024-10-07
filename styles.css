@@ -13,7 +13,7 @@ body {
 }
 header.home {
 
-    background-image: url(/images/florence.jpg);
+    background-image: url(images/florence.jpg);
     background-repeat: none;
     background-size: cover;
     margin: 0;
@@ -28,7 +28,7 @@ header.home {
 /*Nav Bar Styles */
 .nav {
 
-    background-image: url(/images/logo.png);
+    background-image: url(images/logo.png);
     background-repeat: no-repeat;
     background-size: 65px;
     padding-left: 60px;
@@ -124,7 +124,7 @@ header.home {
 }
 
 #likes{
-    background-image: url(/images/heart.png);
+    background-image: url(images/heart.png);
     background-repeat: no-repeat;
     background-size: 16px;
     padding-left: 20px;
@@ -134,7 +134,7 @@ header.home {
 #comments {
 
     padding-left: 20px;
-    background-image: url(/images/comment.png);
+    background-image: url(images/comment.png);
     background-repeat: no-repeat;
     background-size: 16px;
 
