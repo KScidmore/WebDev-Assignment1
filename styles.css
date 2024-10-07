@@ -1,3 +1,12 @@
+article {
+    margin: 0; 
+    padding: 0;
+}
+
+figure {
+    margin: 0; 
+    padding: 0; 
+}
 body {
     margin: 0;
     padding: 0;
@@ -53,7 +62,7 @@ header.home {
 .headerContent {
 
     margin-top: 125px;
-    margin-left: 125px;
+    margin-left: 130px;
     margin-bottom: 0px;
 }
 
@@ -61,8 +70,6 @@ header.home {
 
     color: white;
     font-size: 56px;
-
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -107,9 +114,13 @@ header.home {
 
 }
 
-.paris p {
+.paris figcaption {
 
     text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .785em;
 }
 
 #likes{
@@ -133,11 +144,16 @@ header.home {
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
+
 }
 
-.santorini p {
+.santorini figcaption {
 
     text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .785em;
 }
 
 
@@ -146,9 +162,13 @@ header.home {
     display: inline-block;
 }
 
-.amsterdam p {
+.amsterdam figcaption {
 
     text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .785em;
 }
 
 
@@ -165,9 +185,9 @@ a#more:hover {
 /* Footer Styles*/ 
 
 footer {
-    margin-top: 50px;
+    margin-top: 150px;
     background-color: #51279B;
-    min-height: 200px;
+    min-height: 250px;
 }
 
 #footerLinks ul {
@@ -179,8 +199,9 @@ footer {
 
     display: inline-block;
     list-style-type: none;
-    padding: 20px;
-    margin-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 60px;
+    margin-right: 50px;
 }
 
 #footerLinks li a {
@@ -188,11 +209,14 @@ footer {
     color: white;
     text-decoration: none;
     justify-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer p {
     color: white;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
 }
 
 /*Travel Page Styles*/
@@ -209,13 +233,17 @@ footer p {
 .mainImage {
 
     margin: 0 auto;
+    margin-top: 30px;
 
 }
-.text p {
+.container figcaption {
 
     align-self: flex-start;
     justify-self: flex-start;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    padding-top: 10px;
+    line-height: 1.5;
 }
 
 .relImages{
@@ -231,4 +259,5 @@ footer p {
 
 .relImages img {
     padding: 13px;
+    padding-top: 20px;
 }

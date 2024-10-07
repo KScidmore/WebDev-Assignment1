@@ -8,7 +8,7 @@
 
 <body>
     <header class="home">
-        <div class="nav">
+        <nav class="nav">
             <ul id="navLinks">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="#">BROWSE</a></li>
@@ -17,50 +17,54 @@
                 <li><a href="#">SEARCH</a></li>
                 <li><a href="#">ABOUT</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="headerContent">
+        <section class="headerContent">
             <h1>Now is the time to explore</h1>
             <h2>Visit the land of your dreams</h2>
             <button type="button" id="headButton">LEARN MORE</button>
-        </div>
+        </section>
     </header>
 
     <main>
         <section class="cards">
-        <div class="paris">
-            <img src="images/1-small.jpg" alt="Paris">
-            <p>Louvre Entrance</p>
-            <p>A monumental entrance in the shape of a pyramid!</p>
-            <p><span id="likes">168</span><span  id="comments">34</span><a id="more" href="paris.html">Learn More</a></p>
+            <article class="paris">
+                <figure>
+                    <img src="images/1-small.jpg" alt="Paris">
+                    <figcaption>Louvre Entrance</figcaption>
+                    <figcaption>A monumental entrance in the shape of a pyramid!</figcaption>
+                    <figcaption><span id="likes">168</span><span  id="comments">34</span><a id="more" href="paris.html">Learn More</a></figcaption>
+                </figure>
+            </article>
 
-        </div>
+            <article class="santorini">
+                <figure>
+                    <img src="/images/2-small.jpg" alt="Santorini">
+                    <figcaption>Dusk on Santorini</figcaption>
+                    <figcaption>Devote yourself to the sunset</figcaption>
+                    <figcaption><span id="likes">242</span><span  id="comments">23</span><a id="more" href="santorini.html">Learn More</a></figcaption>
+                </figure>
+            </article>
 
-        <div class="santorini">
-            <img src="/images/2-small.jpg" alt="Santorini">
-            <p>Dusk on Santorini</p>
-            <p>Devote yourself to the sunset</p>
-            <p><span id="likes">242</span><span  id="comments">23</span><a id="more" href="santorini.html">Learn More</a></p>
-
-        </div>
-
-        <div class="amsterdam">
-            <img src="/images/3-small.jpg" alt="Amsterdam">
-            <p>Amsterdam Flower Market</p>
-            <p>The only floating flower market in the world</p>
-            <p><span id="likes">148</span><span  id="comments">18</span><a id="more" href="amsterdam.html">Learn More</a></p>
-        </div>
+            <article class="amsterdam">
+                <figure>
+                    <img src="/images/3-small.jpg" alt="Amsterdam">
+                    <figcaption>Amsterdam Flower Market</figcaption>
+                    <figcaption>The only floating flower market in the world</figcaption>
+                    <figcaption><span id="likes">148</span><span  id="comments">18</span><a id="more" href="amsterdam.html">Learn More</a></figcaption>
+                </figure>
+            </article>
         </section>
     </main>
 
     <footer>
-        <div id="footerLinks">
+        <nav id="footerLinks">
             <ul>
                 <li><a href="#">ABOUT US</a></li>
                 <li><a href="#">PRIVACY POLICY</a></li>
                 <li><a href="#">SITEMAP</a></li>
             </ul>
-        </div>
+        </nav>
         <p>&copy; 2024 Kyle Scidmore. All rights reserved.</p>
         <p>This project is for educational purposes only and may not be used for commercial purposes without permission.</p>
     </footer>
