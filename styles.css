@@ -1,3 +1,5 @@
+/*Change Defaults*/
+
 article {
     margin: 0; 
     padding: 0;
@@ -11,8 +13,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/*Homepage Header Background image*/
 header.home {
 
+    display: inline-block;
     background-image: url(images/florence.jpg);
     background-repeat: none;
     background-size: cover;
@@ -20,34 +25,31 @@ header.home {
     padding: 0;
     width: 100%;
     min-height: 600px;
-    display: inline-block;
+
 }
 
 
 
-/*Nav Bar Styles */
+/*Top Nav Bar Styles */
 .nav {
 
     background-image: url(images/logo.png);
     background-repeat: no-repeat;
     background-size: 65px;
-    padding-left: 60px;
-    margin-left: 10px;
+    padding-left: 55px;
+    margin-left: 15px;
 
 }
 
 #navLinks li{
 
-    list-style-type: none;
     display: inline-block;
+    list-style-type: none;
     font-size: 19px;
     margin: 20px;
+
 }
 
-#navLinks li a:hover{
-
-    color: #8662c7;
-}
 
 #navLinks a{
 
@@ -57,13 +59,19 @@ header.home {
     
 }
 
-/*Header Content Styles*/
+#navLinks a:hover{
 
+    color: #8662c7;
+
+}
+
+/*Header Content Styles*/
 .headerContent {
 
     margin-top: 125px;
-    margin-left: 130px;
+    margin-left: 129px;
     margin-bottom: 0px;
+
 }
 
 .headerContent h1 {    
@@ -71,6 +79,7 @@ header.home {
     color: #ffffff;
     font-size: 56px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .headerContent h2 {
@@ -79,9 +88,12 @@ header.home {
     font-size: 24px;
     font-weight: 100;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 4px;
+
 }
 
 #headButton {
+
     font-size: 15px;
     font-weight: 100;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -91,44 +103,70 @@ header.home {
     width: 170px;
     border-radius: 3px;
     border: none;
+    margin-left: 4px;
 
 }
 
 #headButton:hover {
 
     background-color: #8662c7;
+
 }
 
-/* Card Styles */
-
+/*Homepage Card Styles */
 .cards {
 
- margin-top: 20px;
+    margin-top: 25px;
+    text-align: center;
 
- text-align: center;
 }
 
-.paris {
+section.cards article {
 
     display: inline-block;
 
 }
 
-.paris figcaption {
+article.santorini {
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+section.cards figcaption{
 
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .785em;
+
 }
 
+a#more {
+
+    padding-left: 30px;
+    text-decoration: none;
+    color: #51279B;
+
+}
+
+a#more:hover {
+
+    color: #8662c7;
+
+}
+
+/*Likes and Comments Styles For Home and Travel Pages*/
 #likes{
+
     background-image: url(images/heart.png);
     background-repeat: no-repeat;
     background-size: 16px;
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 #comments {
@@ -139,51 +177,8 @@ header.home {
     background-size: 16px;
 
 }
-.santorini {
 
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-
-}
-
-.santorini figcaption {
-
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .785em;
-}
-
-
-.amsterdam {
-
-    display: inline-block;
-}
-
-.amsterdam figcaption {
-
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .785em;
-}
-
-
-a#more {
-    padding-left: 30px;
-    text-decoration: none;
-    color: #51279B;
-}
-
-a#more:hover {
-
-    color: #8662c7;
-}
 /* Footer Styles*/ 
-
 footer {
     margin-top: 150px;
     background-color: #51279B;
@@ -193,15 +188,17 @@ footer {
 #footerLinks ul {
 
     text-align: center;
+
 }
 
 #footerLinks li {
 
     display: inline-block;
     list-style-type: none;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     margin-top: 60px;
-    margin-right: 50px;
+    margin-right: 65px;
+
 }
 
 #footerLinks li a {
@@ -210,22 +207,25 @@ footer {
     text-decoration: none;
     justify-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 #footerLinks li a:hover {
 
     color: #d3d3d3;
+
 }
 
 footer p {
+
     color: #ffffff;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+
 }
 
 /*Travel Page Styles*/
-
 .container {
 
     display: flex;
@@ -246,9 +246,9 @@ footer p {
     align-self: flex-start;
     justify-self: flex-start;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
     padding-top: 10px;
     line-height: 1.5;
+
 }
 
 .relImages{
@@ -260,9 +260,12 @@ footer p {
 .relImages img:hover {
 
     transform: scale(1.5);
+
 }
 
 .relImages img {
+
     padding: 13px;
     padding-top: 20px;
+
 }
