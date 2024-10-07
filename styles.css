@@ -68,14 +68,14 @@ header.home {
 
 .headerContent h1 {    
 
-    color: white;
+    color: #ffffff;
     font-size: 56px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .headerContent h2 {
 
-    color: white;
+    color: #ffffff;
     font-size: 24px;
     font-weight: 100;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -85,7 +85,7 @@ header.home {
     font-size: 15px;
     font-weight: 100;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: #ffffff;
     background-color: #51279B;
     height: 60px;
     width: 170px;
@@ -206,14 +206,19 @@ footer {
 
 #footerLinks li a {
 
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     justify-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#footerLinks li a:hover {
+
+    color: #d3d3d3;
+}
+
 footer p {
-    color: white;
+    color: #ffffff;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
